@@ -70,22 +70,36 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/Christmas 1.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Girls coding day</h1>
-                        <hr class="small">
-                        <span class="subheading">我也愿意贡献力量帮助更多的女性学习编程</span>
-                        <span class="subheading">本
-                            <b>博客</b>使用
-                            <a href="https://strartbootstrap.com/template-overviews/clean-blog/">Boostrap模板</a>
-                            <i>制作</i></span>
-                    </div>
-                </div>
+    <header class="intro-header" style="background-image: url('img/Christmas 1.jpg')"
+    >
+            <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                < img src="img/home-bg.jpg" alt="First slide">
+            </div>
+            <div class="item">
+                < img src="img/home-bg.jpg" alt="Second slide">
+            </div>
+            <div class="item">
+                < img src="img/home-bg.jpg" alt="Third slide">
             </div>
         </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="carousel-control left" href=" " 
+            data-slide="prev">&lsaquo;
+        </a >
+        <a class="carousel-control right" href="#myCarousel" 
+            data-slide="next">&rsaquo;
+        </a >
+    </div>
+    
     </header>
 
     <!-- Main Content -->
